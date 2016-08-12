@@ -1,0 +1,15 @@
+{
+    "modules": {},
+    "packages": {
+        "pegasus/<%= project %>": {
+            "debug": true,
+            "ignorePackageNameInUri": true,
+            "version": "<%= version %>",
+            "path": "http://g.tbcdn.cn/pegasus/<%= project %>/<%= version %>/",
+            "group": "tm"
+        }
+    },
+    "version": "1.4.10",
+    "combine": true,
+    "debug": true
+}

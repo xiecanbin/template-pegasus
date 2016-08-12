@@ -1,0 +1,36 @@
+{
+    "name": "<%= project %>",
+    "description": "<%= description %>",
+    "version": "<%= version %>",
+    "keywords": ["pegasus"],
+    "feDependencies": {
+        "mui/zepto": "4.0.x",
+        "mui/kissy-polyfill": "4.0.x"
+    },
+    "kissyVersion": "1.4.16",
+    "author": "",
+    "designer": "",
+    "devDependencies": {
+        "requireg": "*",
+        "gulp-jshint": "~1.11.2",
+        "map-stream": "*",
+        "git-pre-hooks": "^1.1.1",
+        "gulp": "3.x.x",
+        "gulp-less": "*",
+        "gulp-if": "*",
+        "gulp-plumber": "^0.6.5",
+        "del": "^0.1.3",
+        "colors": "^0.6.2",
+        "autod": "2",
+        "gulp-babel": "^6.0.0",
+        "babel-preset-react": "^6.0.0",
+        "babel-preset-es2015": "^6.0.0",
+        "babel-preset-stage-1": "^6.0.0",
+        "gulp-remove-use-strict": "*",
+        "run-gulp-task": "~0.1.2",
+        "gulp-autoprefixer": "~3.1.0"
+    },
+    "engines": {
+        "node": ">0.11.13"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "template-pegasus",
+  "version": "0.1.3",
+  "description": "天马模块脚手架",
+  "keywords": [
+    "template",
+    "tapc",
+    "init",
+    "pegasus"
+  ],
+  "author": "maisui99",
+  "license": "MIT"
+}

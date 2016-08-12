@@ -1,0 +1,8 @@
+{{! 加载对应的 js 和 css 资源 }}
+{{ require ("pegasus/<%=project%>/index.css") }}
+{{ require("mui/kissy-polyfill/index.js") }}
+
+{{! data-async-load添加后模块脚本init会按需执行,如果模块需要在页面加载后直接执行,请移除data-async-load属性 }}
+<div class="<%=project%>" data-mod-name="pegasus/<%=project%>/index" data-config="{}" data-async-load="true">
+    <h1 class="content">hello, my name is <span class="name">{{ moduleConfig.name }}</span>. I'm a mobile module.</h1>
+</div>
