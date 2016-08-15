@@ -5,6 +5,7 @@
     "keywords": ["pegasus"],
     "feDependencies": {
         "mui/zepto": "4.0.x",
+        "mui/fetch": "4.1.x",
         "mui/kissy-polyfill": "4.0.x"
     },
     "kissyVersion": "1.4.16",
